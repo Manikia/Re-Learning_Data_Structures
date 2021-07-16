@@ -3,7 +3,7 @@ import java.util.Deque;
 
 public class WordRev{
   public static void main(String[] args){
-    String input = "my name is bobby "; // create input string
+    String input = "my name is bobby"; // create input string
     input = input.strip();
     
     Deque<String> stack = new ArrayDeque<>(); // create a stack
